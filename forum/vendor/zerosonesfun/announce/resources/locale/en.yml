@@ -1,0 +1,9 @@
+zerosonesfun-announce:
+  admin:
+    settings:
+      title: Announce Settings
+
+      text: Announcement text
+      height: Height of Announcement
+      css: CSS
+      js: JS

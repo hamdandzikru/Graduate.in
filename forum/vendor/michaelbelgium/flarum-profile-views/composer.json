@@ -1,0 +1,40 @@
+{
+  "name": "michaelbelgium/flarum-profile-views",
+  "description": "Add views to profiles",
+  "type": "flarum-extension",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael V.",
+      "email": "michael@michaelbelgium.me"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/MichaelBelgium/flarum-profile-views/issues",
+    "source": "https://github.com/MichaelBelgium/flarum-profile-views"
+  },
+  "autoload": {
+    "psr-4": {
+      "Michaelbelgium\\Profileviews\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Profile views",
+      "icon": {
+        "name": "far fa-eye",
+        "backgroundColor": "#90C3D4",
+        "color": "#fff"
+      }
+    }
+  },
+  "suggest": {
+    "rooaaar/lang-french-extended": "Includes French translation for this extension",
+    "michaelbelgium/flarum-dutch": "Includes Dutch translation for this extension",
+    "csineneo/lang-traditional-chinese": "Includes Chinese translation for this extension",
+    "darkfoxdeveloper/flarum-ext-spanish": "Includes Spanish translation for this extension"
+  }
+}

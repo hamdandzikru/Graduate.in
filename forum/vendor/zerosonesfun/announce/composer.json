@@ -1,0 +1,34 @@
+{
+    "name": "zerosonesfun/announce",
+    "description": "Display an announcement.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": ">=0.1.0-beta.8 <0.1.0-beta.12"
+    },
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "email": "wilcosky@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ZerosOnesFun\\Announce\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Announce",
+            "icon": {
+                "name": "fas fa-bullhorn",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}

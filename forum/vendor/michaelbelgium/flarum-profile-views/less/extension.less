@@ -1,0 +1,37 @@
+fieldset.LastUsers {
+	ul {
+		list-style-type: none;
+		padding: 0;
+
+		li a {
+			display: block;
+			  
+			span.lastUser-avatar {
+				width: 20%;
+				display: inline-block;
+				height: 35px;
+				line-height: 35px;
+			}
+
+			div {
+				display: inline-block;
+				width: 80%;
+
+				span.username {
+    				margin-left: 6px;
+				}
+	
+				span.lastUser-visited {
+					float: right;
+					font-size: .8em;
+				}
+			}
+		}
+
+		li a:hover {
+			div > span {
+				text-decoration: underline;
+			}
+		}
+	}
+}
